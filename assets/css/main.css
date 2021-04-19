@@ -37,8 +37,10 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
-
-
+.profilepic{
+	height: 60vh;
+	width: 40vw;
+}
 
 
 
@@ -222,6 +224,11 @@ input, select, textarea {
 					width: 36em;
 				}
 
+				.profilepic{
+					height: 50vh;
+					width: 30vw;
+				}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -233,6 +240,11 @@ input, select, textarea {
 				.container.medium {
 					width: 71.25%;
 				}
+
+					.profilepic {
+						height: 30vh;
+						width: 30vh;
+					}
 
 		}
 
